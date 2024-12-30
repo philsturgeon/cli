@@ -54,7 +54,7 @@ Or, with Yarn via
 yarn global add bump-cli
 ```
 
-### Add Bump.sh to your node project
+### Add Bump.sh to your Node project
 
 As our CLI is a node package, you can easily embed it into your project by adding the package to your `package.json` file, either with NPM
 
@@ -74,7 +74,7 @@ You can then use any Bump.sh commands with `npx` (same as `npm exec`)
 npx bump --help
 ```
 
-### How should I do if I'm not using npm ?
+### Can I install Bump.sh CLI without using NodeJS?
 
 Unfortunately, at the moment we only support the Node environment. However, you can download a standalone package directly from the [latest Github release](https://github.com/bump-sh/cli/releases) assets which you can run as a standalone binary. Or you can push your documentation using [our API](https://developers.bump.sh/) (advanced usage only).
 
@@ -96,7 +96,7 @@ COMMANDS
   deploy   Create a new version of your documentation from the given file or URL.
   diff     Get a comparison diff with your documentation from the given file or URL.
   help     Display help for bump.
-  overlay  Apply an OpenAPI specified overlay to your API definition.
+  overlay  Apply OpenAPI overlays to the API definition.
   preview  Create a documentation preview from the given file or URL.
 ```
 
